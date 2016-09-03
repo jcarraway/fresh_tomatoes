@@ -28,7 +28,7 @@ sixth_sense = media.Movie("The Sixth Sense",
 
 movies = [toy_story, avatar, boondock_saints, rear_window, donnie_darko, sixth_sense]
 
-#fresh_tomatoes.open_movies_page(movies)
-#print (avatar.storyline)
-#boondock_saints.show_trailer()
+# fresh_tomatoes.open_movies_page(movies)
+# print (avatar.storyline)
+# boondock_saints.show_trailer()
 print (media.Movie.__doc__)
