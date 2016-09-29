@@ -1,12 +1,13 @@
 import media
 import fresh_tomatoes
 
+# add movie details
 toy_story = media.Movie("Toy Story",
-                        "Kids and toys adventure",
+                        "Kids and toys adventure together",
                         "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/220px-Toy_Story.jpg",  # NOQA
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 avatar = media.Movie("Avatar",
-                     "Aliens",
+                     "Man on a mission",
                      "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg"  # NOQA,
                      "www.youtube.com/watch?v=8KAtG68bIUc")
 boondock_saints = media.Movie("Boondock Saints",
@@ -26,10 +27,11 @@ sixth_sense = media.Movie("The Sixth Sense",
                           "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/The_sixth_sense.jpg/220px-The_sixth_sense.jpg",  # NOQA
                           "https://www.youtube.com/watch?v=VG9AGf66tXM")
 
+# create movies collection
 movies = [toy_story, avatar, boondock_saints, rear_window, donnie_darko,
           sixth_sense]
 
+# updates movies page
 fresh_tomatoes.open_movies_page(movies)
-# print (avatar.storyline)
-# boondock_saints.show_trailer()
+
 print (media.Movie.__doc__)
