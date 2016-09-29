@@ -1,5 +1,6 @@
 import webbrowser
 
+
 class Movie():
     """This class initializes our movies"""
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
