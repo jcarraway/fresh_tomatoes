@@ -8,7 +8,7 @@ toy_story = media.Movie("Toy Story",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 avatar = media.Movie("Avatar",
                      "Man on a mission",
-                     "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg"  # NOQA,
+                     "https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg",  # NOQA,
                      "www.youtube.com/watch?v=8KAtG68bIUc")
 boondock_saints = media.Movie("Boondock Saints",
                               "Vigilante brothers",
