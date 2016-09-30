@@ -2,7 +2,7 @@
 Fresh Tomatoes generates a static web page that allows you to browse your favorite movies, view their posters, and watch their trailers.
 
 ## Running the application
-In order to run the application [Entertainment Center](fresh_tomatoes/movies/entertainment_center.py) you should make a local copy on your machine
+In order to run the application [Entertainment Center](movies/entertainment_center.py) you should make a local copy on your machine
 and open the file in IDLE. Once the file is open, Run the file via the IDLE menu. Running the application will create instances of the class Movie, add
 the films to a collection called movies, and opens the HTML file called fresh_tomatoes.html to display the collection of movies.
 
